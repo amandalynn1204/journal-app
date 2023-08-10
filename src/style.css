@@ -1,0 +1,97 @@
+body {
+  background: rgb(255, 244, 245);
+  font-family: "Kalam", cursive;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(255, 101, 127);
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+button {
+  display: block;
+  margin: 25px auto 0;
+  background: rgb(255, 101, 127);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  box-shadow: 0 5px;
+  transition: all 100ms ease-in-out;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+footer {
+  opacity: 0.3;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 400px;
+  background: rgb(253, 200, 209);
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 5px 8px rgba(100, 100, 100, 0.1);
+}
+
+.blue {
+  background: rgb(244, 249, 255);
+}
+.blue .container {
+  background: rgb(200, 219, 253);
+}
+
+.blue h1 {
+  color: rgb(101, 157, 255);
+}
+
+.blue button {
+  background: rgb(101, 157, 255);
+}
+
+.green {
+  background: rgb(244, 255, 244);
+}
+
+.green .container {
+  background: rgb(212, 253, 200);
+}
+
+.green h1 {
+  color: rgb(97, 220, 107);
+}
+
+.green button {
+  background: rgb(97, 220, 107);
+}
+
+.purple {
+  background: rgb(252, 244, 255);
+}
+
+.purple .container {
+  background: rgb(238, 200, 253);
+}
+
+.purple h1 {
+  color: rgb(192, 99, 235);
+}
+
+.purple button {
+  background: rgb(192, 99, 235);
+}
