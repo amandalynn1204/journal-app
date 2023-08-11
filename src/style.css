@@ -65,20 +65,20 @@ footer {
   background: rgb(101, 157, 255);
 }
 
-.green {
-  background: rgb(244, 255, 244);
+.yellow {
+  background: rgb(255, 253, 244);
 }
 
-.green .container {
-  background: rgb(212, 253, 200);
+.yellow .container {
+  background: rgb(255, 234, 184);
 }
 
-.green h1 {
-  color: rgb(97, 220, 107);
+.yellow h1 {
+  color: #ffb02e;
 }
 
-.green button {
-  background: rgb(97, 220, 107);
+.yellow button {
+  background: #ffb02e;
 }
 
 .purple {
