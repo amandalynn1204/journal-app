@@ -32,11 +32,11 @@ function purpleTheme() {
 
 let body = document.querySelector("body");
 let playlistLink = document.querySelector("#playlist-link");
-let heart = document.querySelector(".heart");
-let pinkButton = document.querySelector(".pink-button");
-let blueButton = document.querySelector(".blue-button");
-let yellowButton = document.querySelector(".yellow-button");
-let purpleButton = document.querySelector(".purple-button");
+let heart = document.querySelector("#heart");
+let pinkButton = document.querySelector("#pink-btn");
+let blueButton = document.querySelector("#blue-btn");
+let yellowButton = document.querySelector("#yellow-btn");
+let purpleButton = document.querySelector("#purple-btn");
 
 pinkButton.addEventListener("click", pinkTheme);
 blueButton.addEventListener("click", blueTheme);
