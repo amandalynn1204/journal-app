@@ -1,7 +1,26 @@
 body {
   background: rgb(255, 244, 245);
   font-family: "Kalam", cursive;
-  padding: 15px;
+  padding: 0 15px;
+}
+
+header p,
+footer p {
+  opacity: 0.3;
+  text-align: center;
+}
+
+header p {
+  margin-top: 20px;
+}
+
+header a {
+  color: rgb(255, 101, 127);
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -35,16 +54,10 @@ button:active {
   box-shadow: none;
 }
 
-footer {
-  opacity: 0.3;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
 .container {
   max-width: 400px;
   background: rgb(253, 200, 209);
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 25px;
   border-radius: 4px;
   box-shadow: 0 5px 8px rgba(100, 100, 100, 0.1);
@@ -53,10 +66,12 @@ footer {
 .blue {
   background: rgb(244, 249, 255);
 }
+
 .blue .container {
   background: rgb(200, 219, 253);
 }
 
+.blue header a,
 .blue h1 {
   color: rgb(101, 157, 255);
 }
@@ -73,6 +88,7 @@ footer {
   background: rgb(255, 234, 184);
 }
 
+.yellow header a,
 .yellow h1 {
   color: #ffb02e;
 }
@@ -89,6 +105,7 @@ footer {
   background: rgb(238, 200, 253);
 }
 
+.purple header a,
 .purple h1 {
   color: rgb(192, 99, 235);
 }

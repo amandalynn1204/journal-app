@@ -31,6 +31,7 @@ function purpleTheme() {
 }
 
 let body = document.querySelector("body");
+let playlistLink = document.querySelector("#playlist-link");
 let heart = document.querySelector(".heart");
 let pinkButton = document.querySelector(".pink-button");
 let blueButton = document.querySelector(".blue-button");
