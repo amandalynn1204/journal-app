@@ -14,12 +14,12 @@ header p {
   margin-top: 20px;
 }
 
-header a {
+a {
   color: rgb(255, 101, 127);
   text-decoration: none;
 }
 
-header a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -71,7 +71,7 @@ button:active {
   background: rgb(200, 219, 253);
 }
 
-.blue header a,
+.blue a,
 .blue h1 {
   color: rgb(101, 157, 255);
 }
@@ -88,7 +88,7 @@ button:active {
   background: rgb(255, 234, 184);
 }
 
-.yellow header a,
+.yellow a,
 .yellow h1 {
   color: #ffb02e;
 }
@@ -105,7 +105,7 @@ button:active {
   background: rgb(238, 200, 253);
 }
 
-.purple header a,
+.purple a,
 .purple h1 {
   color: rgb(192, 99, 235);
 }
